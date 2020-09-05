@@ -33,3 +33,9 @@ export enum ERRORTYPES {
 export const ERROR_TYPE_RE = /^(?:[Uu]ncaught (?:exception: )?)?(?:((?:Eval|Internal|Range|Reference|Syntax|Type|URI|)Error): )?(.*)$/
 
 export type voidFun = () => void
+
+
+export enum HTTPTYPE {
+  XHR = 'xhr',
+  FETCH = 'fetch'
+}
